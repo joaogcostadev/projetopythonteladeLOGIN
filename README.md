@@ -9,6 +9,20 @@ Sistema de Login: Um formulário simples onde os usuários podem inserir seu nom
 Validação de Credenciais: O sistema verifica se as credenciais correspondem às informações pré-definidas.
 Feedback Visual: Mensagens de sucesso ou erro são exibidas dependendo do resultado do login.
 
+Funcionalidades = o programa vai dar o resultado de login correto apenas se digitar usuario:joaocosta senha:12345
+ao contrario ele resultada em login incorreto
+foi feito a partir de um configure + a variavel se usuario joaocosta== e senha 12345 
+|
+ usuario = entry_usuario.get()
+    senha = entry_senha.get()
+    if usuario == 'joaocosta' and senha == '12345':
+        resultado_login.configure(text='login bem sucedido', text_color='green')
+    else:
+        resultado_login.configure(text='login falhou', text_color='red')
+|  
+
+
+
 
 ## feito por:
 
